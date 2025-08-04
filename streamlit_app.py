@@ -20,7 +20,7 @@ def clean_text(text):
     return " ".join(tokens)
 
 # Streamlit UI
-st.title("📨 Complaint Classifier")
+st.title("Complaint Classifier")
 st.write("Paste a customer complaint below and the model will classify it.")
 
 user_input = st.text_area("Enter complaint text:")
